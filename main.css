@@ -6,15 +6,35 @@ body{
 #header{
     text-align: center;
    color: khaki;
-    font-size: 7vw;
+    font-size: 4vw;
 }
 #lap{
     text-align: right;
-    font-size: 4vw;
+    font-size: 2vw;
 color: khaki;
 }
 #main{
     text-align: center;
-    font-size: 8vw;
+    font-size: 4vw;
 color: khaki;
+}
+#controlsContainer{
+    margin-bottom: 100px;
+}
+.control{
+    color: white;
+    background-color: #d7A04e;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    text-align: center;
+    padding: 20% 0;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+
+#laps{
+    max-height:240px;
+    overflow-y:scroll;
+
 }
